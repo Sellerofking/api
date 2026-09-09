@@ -24,7 +24,7 @@ module.exports = async function handler(req, res) {
             code: 200,
             message: "Success",
             data: {
-                token: "eyJhbGciOiJIUzI1NiJ9.eyJjcmVhdGVkRGF0ZSI6IjIwMjYtMDMtMzAgMDI6MzE6MTEuMDU1Iiwic2Vzc2lvbklkIjoiMTc0MzQ5NTg2IiwiZGV2aWNlSWQiOiJhNjIyOWJhZDVjMTc5ZDUxIiwic3ViIjoiODg2NjY0NDEiLCJleHAiOjE3ODQ3Nzk5NDV9.XB5Zn6Z8e7loYVeVx9Z_05GpcHY-qt1_Ppuna6HqB8I"
+                token: "eyJhbGciOiJIUzI1NiJ9.eyJjcmVhdGVkRGF0ZSI6IldlZCBTZXAgMDkgMTE6NDg6NTggVVRDIDIwMjYiLCJzZXNzaW9uSWQiOiIxOTg5MDcwNTciLCJkZXZpY2VJZCI6IjNmZjhmZTE2MzRlYjQ5NjIxIiwic3ViIjoiMTQwNjAyNTUzIiwiZXhwIjoxNzg5MjEzNzM4fQ.gh8j_5j4CgpNOwanJoiemeMRjUQi56Da5t_IaiNrh98"
             }
         });
     }
@@ -105,7 +105,7 @@ module.exports = async function handler(req, res) {
     // ==========================================
     const DEVICE_IDENTITY = {
         deviceId: "37e1872a9743cd34",
-        bearerToken: "Bearer eyJhbGciOiJIUzI1NiJ9.eyJjcmVhdGVkRGF0ZSI6IjIwMjYtMDMtMzAgMDI6MzE6MTEuMDU1Iiwic2Vzc2lvbklkIjoiMTc0MzQ5NTg2IiwiZGV2aWNlSWQiOiJhNjIyOWJhZDVjMTc5ZDUxIiwic3ViIjoiODg2NjY0NDEiLCJleHAiOjE3ODQ3Nzk5NDV9.XB5Zn6Z8e7loYVeVx9Z_05GpcHY-qt1_Ppuna6HqB8I",
+        bearerToken: "Bearer eyJhbGciOiJIUzI1NiJ9.eyJjcmVhdGVkRGF0ZSI6IldlZCBTZXAgMDkgMTE6NDg6NTggVVRDIDIwMjYiLCJzZXNzaW9uSWQiOiIxOTg5MDcwNTciLCJkZXZpY2VJZCI6IjNmZjhmZTE2MzRlYjQ5NjIxIiwic3ViIjoiMTQwNjAyNTUzIiwiZXhwIjoxNzg5MjEzNzM4fQ.gh8j_5j4CgpNOwanJoiemeMRjUQi56Da5t_IaiNrh98",
         os: "Android 15 (API 33)",
         platform: "0",
         appVersion: "126",
